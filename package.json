@@ -1,11 +1,24 @@
 {
   "name": "vue-binary",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "description": "基于vue+canvas快速简单将图片生成二值化数据的组件(OSTU - 大津算法选自适应阈值)",
+  "private": false,
+  "main": "lib/vue-binary.umd.min.js",
+  "author": "yufan <18766850824@163.com>",
+  "keywords": [
+    "vue",
+    "vue canvas",
+    "vue-binary",
+    "ostu",
+    "threshold"
+  ],
+  "unpkg": "lib/index.js",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-binary --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.4.3",
