@@ -1,6 +1,6 @@
 {
   "name": "vue-binary",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "基于vue+canvas快速简单将图片生成二值化数据的组件(OSTU - 大津算法选自适应阈值)",
   "private": false,
   "main": "lib/vue-binary.umd.min.js",
