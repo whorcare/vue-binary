@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <vueBinary :imgUrl="imgArr[6]" :debug="true" @success="success"></vueBinary>
+    <vueBinary :imgUrl="imgArr[2]" @success="success"></vueBinary>
+    <img :src="img">
   </div>
 </template>
 
@@ -11,6 +12,7 @@ export default {
   name: 'app',
   data() {
     return {
+      img: '',
       imgArr: [
         'https://3img.evente.cn/89/24/c5/2f8bd4af2030c57438fbdb8735.jpg?imageView2/2/w/740',
         'https://0img.evente.cn/b4/e9/57/859996945c4020a3557d62d727.jpg?imageView2/2/w/740',
@@ -26,6 +28,7 @@ export default {
     success(e) {
       // eslint-disable-next-line
       console.log(e);
+      this.img = e.imgBase;
     },
   }
 }

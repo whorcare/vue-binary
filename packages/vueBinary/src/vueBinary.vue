@@ -132,7 +132,6 @@ export default {
       } else if (this.thresholdCalculation !== 0) {
         nThresh += this.thresholdCalculation
       }
-      console.log(nThresh)
       //下面执行二值化过程
       const binaryArr = [];
       for (i = 0; i < canvasData.width; i++) {
