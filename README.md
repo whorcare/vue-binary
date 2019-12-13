@@ -37,6 +37,11 @@ g=ω0ω1(u0−u1)2g=ω0ω1(u0−u1)2
 ##### 是不是懵逼了？
 不要慌，看不懂直接抄公式就OK（直接使用本组件也ok~）向下看 ↓
 
+# Github
+- [Github地址](https://github.com/whorcare/vue-binary)
+##### 图片展示不出来 可以使用掘金备用地址 =，=
+- [掘金](https://juejin.im/post/5df33d1051882512632e772c)
+
 # 生成效果
 ##### 原图
 ![原图](https://3img.evente.cn/a6/9f/bb/dce6fc4e145771be80316f4f04.jpg?imageView2/2/w/740)
